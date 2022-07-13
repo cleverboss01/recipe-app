@@ -1,0 +1,84 @@
+.form,
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 70%;
+  margin-left: auto;
+  display: inline;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.form-group label {
+  display: inline;
+  margin-right: 20px;
+}
+
+.form-group.email label {
+  display: inline;
+  margin-right: 60px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #58249c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn svg {
+  margin-right: 8px;
+}
+
+.btn-reverse {
+  background: #fff;
+  color: #000;
+}
+
+.btn-block {
+  margin: auto;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #249c6b;
+  transform: scale(0.92);
+}
+
+.register.header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.register {
+  color: #555;
+  max-width: 800px;
+  margin: 20px auto;
+}

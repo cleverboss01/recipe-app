@@ -1,0 +1,125 @@
+:root {
+  --primary: #042a2b;
+}
+
+.btn {
+  padding: 8px 290px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #042a2b;
+  padding: 8px 20px;
+  border: 1px solid #cdebf5;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 10px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--mobile {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-left: 100px;
+  border-radius: 100px;
+  width: 40%;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: #cdebf5;
+  padding: 14px 20px;
+  border: 2.5px solid #cdebf5;
+  transition: all 0.3s ease-out;
+}
+
+.btn--wide {
+  padding: 12px 64px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: #cdebf5;
+  color: #042a2b;
+}
+
+.btn--wide:hover {
+  color: #cdebf5;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.blue {
+  background-color: #dc393a;
+  color: #fff;
+  border: none;
+}
+
+.blue:hover {
+  background-color: #cdebf5;
+  color: #042a2b;
+  border: none;
+  transition: all 0.4s ease-out;
+}
+.red {
+  background-color: #f00946;
+  color: #cdebf5;
+  border: none;
+}
+
+.primary {
+  background-color: #042a2b;
+  color: #fff;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #fff;
+  color: #042a2b;
+}
+
+.green {
+  background-color: #25ce25;
+  color: #cdebf5;
+  border: none;
+}
+
+@media (max-width: 620px) {
+  .btn--mobile {
+    background-color: transparent;
+    color: #cdebf5;
+    padding: 9px 7px;
+    border-color: #cdebf5;
+    font-size: 12px;
+  }
+}
