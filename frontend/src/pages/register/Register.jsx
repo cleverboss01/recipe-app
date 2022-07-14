@@ -24,7 +24,7 @@ const Register = () => {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { color } = useTheme();
+  const { color, mode } = useTheme();
 
   const { user, isLoading, isError, isSuccess, message } = useSelector(
     (state) => state.auth
@@ -76,7 +76,11 @@ const Register = () => {
       <ThemeSelector />
 
       <section className="register" data-aos="fade-right">
-        <section className="register header">
+        <section
+          className={
+            mode !== "dark" ? "register header" : "register header dark"
+          }
+        >
           <h1>
             <FaUser />
             Register

@@ -23,7 +23,7 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const { color } = useTheme();
+  const { color, mode } = useTheme();
 
   const { user, isLoading, isError, isSuccess, message } = useSelector(
     (state) => state.auth
@@ -72,7 +72,9 @@ const Login = () => {
       <ThemeSelector />
 
       <section className="login" data-aos="fade-right">
-        <section className="login header">
+        <section
+          className={mode !== "dark" ? "login header" : "login header dark"}
+        >
           <h1>
             <FaSignInAlt /> Login
           </h1>

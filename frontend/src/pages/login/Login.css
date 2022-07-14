@@ -76,6 +76,12 @@
   margin-bottom: 50px;
 }
 
+.login.header.dark {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .login {
   color: #555;
   max-width: 800px;
