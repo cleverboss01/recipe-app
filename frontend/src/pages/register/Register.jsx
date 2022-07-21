@@ -88,7 +88,7 @@ const Register = () => {
           <h4>Please create an account</h4>
         </section>
 
-        <section className="form">
+        <section className={mode !== "dark" ? "form" : "form dark"}>
           <form onSubmit={onSubmit}>
             <div className="form-group">
               <label htmlFor="name">Fullname: </label>

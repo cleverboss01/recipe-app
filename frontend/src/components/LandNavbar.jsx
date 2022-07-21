@@ -60,7 +60,7 @@ export default function Land() {
                   <li className="nav-line">
                     <hr />
                   </li>
-                  <li>
+                  <li className="nav-item">
                     <Link to="" onClick={onLogout} className="nav-links">
                       <FaSignOutAlt />
                       Logout

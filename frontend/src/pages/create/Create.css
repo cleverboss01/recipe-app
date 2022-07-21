@@ -3,32 +3,38 @@
   max-width: 600px;
   margin: 60px auto;
 }
-.create label span {
+.create label {
   display: flex;
   flex-direction: row;
-  margin: 30px 0 10px;
+  margin-bottom: 10px;
 }
+
+.create input {
+  align-items: flex-end;
+  background: #f1fcff;
+}
+
 .create p {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 0.8em;
+  text-align: center;
 }
 .create button {
   display: block;
-  width: 100px;
   font-size: 1em;
   color: #fff;
   padding: 8px 20px;
   border: 0;
-  border-radius: 4px;
-  background-color: #58249c;
   cursor: pointer;
   text-decoration: none;
-  margin: 20px auto;
 }
 .ingredients {
   display: flex;
   align-items: center;
 }
-.ingredients button {
-  margin: 0 0 0 10px;
+
+.add-btn {
+  margin-bottom: 10px;
+  height: 46px;
+  border-radius: 0 5px 5px 0;
 }

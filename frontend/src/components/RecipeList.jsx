@@ -21,15 +21,15 @@ export default function RecipeList({ recipes }) {
             <div>{recipe.method.substring(0, 100)}...</div>
             <button
               onClick={() => dispatch(getOneRecipe(recipe._id))}
-              className="btn btn-primary"
-              background={color}
+              className="btn card-btn"
+              backgroundColor={color}
             >
               Cook this
             </button>
             <button
               onClick={() => dispatch(deleteRecipe(recipe._id))}
-              className="btn btn-danger"
-              background={color}
+              className="btn card-btn"
+              backgroundColor={color}
             >
               Remove
             </button>

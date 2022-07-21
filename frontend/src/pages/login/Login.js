@@ -37,7 +37,6 @@ const Login = () => {
     }
 
     if (isSuccess || user) {
-      toast.success(`Welcome back ${user.name}`);
       navigate("/recipes");
     }
 
@@ -81,7 +80,7 @@ const Login = () => {
           <h4>Sign in to create recipes!</h4>
         </section>
 
-        <section className="form">
+        <section className={mode !== "dark" ? "form" : "form dark"}>
           <form onSubmit={onSubmit}>
             <div className="form-group email">
               <label htmlFor="email">Email: </label>

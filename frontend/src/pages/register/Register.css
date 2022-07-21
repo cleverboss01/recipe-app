@@ -30,6 +30,10 @@
   margin-right: 20px;
 }
 
+.form-group label.dark {
+  color: #fff;
+}
+
 .form-group.email label {
   display: inline;
   margin-right: 60px;

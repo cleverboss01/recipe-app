@@ -15,7 +15,7 @@ export default function Navbar() {
     <div className="navbar" style={{ background: color }}>
       <div className="navbar-container container">
         <Link to="/" className="navbar-logo">
-          <h1>Recipe Store</h1>
+          Recipe Store
         </Link>
         <div className="menu-icon" onClick={() => setClick(!click)}>
           {click ? <FaRegTimesCircle /> : <MdOutlineSegment />}

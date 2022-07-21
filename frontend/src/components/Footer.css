@@ -35,7 +35,7 @@
   font-style: normal;
   width: 200%;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   color: #fff;
   margin-bottom: 15px;
@@ -49,7 +49,7 @@
   top: 3654px;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
   color: #fff;
 }
@@ -68,7 +68,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .social-media {
@@ -96,7 +96,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -106,9 +106,9 @@
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
-  color: grey;
+  color: #ced4da;
   margin: 0 auto;
 }
 

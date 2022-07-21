@@ -2,7 +2,7 @@ import "./ThemeSelector.css";
 import { useTheme } from "../hooks/useTheme";
 import modeIcon from "../assets/dark-mode.svg";
 
-const themeColors = ["#b70233", "#249c6b", "#58249c"];
+const themeColors = ["#dc393a", "#249c6b", "#58249c"];
 
 export default function ThemeSelector() {
   const { changeColor, changeMode, mode } = useTheme();
