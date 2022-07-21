@@ -4,9 +4,9 @@
   "description": "'MERN app for recipes'",
   "main": "server.js",
   "scripts": {
-    "start": "npm start backend/server.js",
+    "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "'Daniel Ndubuisi'",
@@ -22,6 +22,6 @@
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.18"
   }
 }
